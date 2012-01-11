@@ -1,0 +1,11 @@
+#!/bin/sh
+
+for x in *.tiff ; do
+  if [ -r $z ] ; then
+      pngfile="${x%.*}.jpg"
+      if [ -n $pngfile ] ; then
+          echo "Converting $x into $pngfile"
+          /usr/local/bin/convert $x $pngfile
+      fi
+   fi
+done
