@@ -1,22 +1,22 @@
 These are my notes from the artificial intelligence course tought over the
 internet by Peter Norvig and Sebastian Thrun, fall 2011.
 
-A PDF version of the document can be found at 
+A PDF version of the document can be found at
 
-     http://dl.dropbox.com/u/187726/ai-course-notes.pdf
+     https://github.com/la3lma/aiclassnotes/blob/master/ai-course-notes.pdf
 
 To build the notes do
 
      sh bin/buildall.sh
 
-and you will get a file called "notes.pdf" that you can enjoy.  
-To clean up you can execute the script 
+and you will get a file called "notes.pdf" that you can enjoy.
+To clean up you can execute the script
 
     sh bin/cleanall.sh
 
 and that will remove everything made by the build process.
 
-If you have improvements, or suggestions please feel free to 
+If you have improvements, or suggestions please feel free to
 send me a note or clone the document on github and fix it
 yourself.
 
@@ -31,7 +31,7 @@ reader and every little piece of help is much appreciated.
 
 
 ps: If you are rmz, then it might be of interest to
-    use the script bin/deploy.sh that will deploy the 
+    use the script bin/deploy.sh that will deploy the
     built notes.pdf file to http://dl.dropbox.com/u/187726/ai-course-notes.pdf
     If you are not rmz, this script is probably not
     of much interest :-)
